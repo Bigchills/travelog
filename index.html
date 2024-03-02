@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travlog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/59ce504447.js" crossorigin="anonymous"></script>
+</head>
+<body class="m-0">
+    <nav class="px-12 py-5 items-center max-lg:bg-gradient-to-l from-white via-white to-lightOrange">
+
+        <div class="flex justify-between items-center " >
+
+            <!-- logo -->
+
+            <div class="max-lg:order-2 max-sm:1">
+                <img class="w-11/12" src="images/logo.svg" alt="">
+            </div>
+
+            <!-- List Items -->
+
+            <ul class="flex space-x-10 font-semibold text-sm max-lg:hidden">
+                <li class="text-lightGray hover:text-black"><a href="">Home</a></li>
+                <li class="text-lightGray hover:text-black"><a href="">Discover</a></li>
+                <li class="text-lightGray hover:text-black"><a href="">Special Deals</a></li>
+                <li class="text-lightGray hover:text-black"><a href="">Contact</a></li>
+            </ul>
+            
+            <!-- Nav buttons -->
+
+            <div class="flex gap-5 max-lg:order-3 max-sm:hidden">
+                <button class="rounded-2xl w-20 p-1.5 text-sm items-center text-black font-bold"><a href="#">Log In</a></button>
+                <button class="bg-purpleShade rounded-2xl text-white w-20 p-1.5 text-sm items-center"><a href="#"></a>Sign Up</button>
+            </div>
+
+            <button id="menu-btn" class=" hidden hamburger mr-1 max-lg:block max-lg:order-1 max-sm:order-2">
+                <span class="w-6 h-1 hamburger-top rounded-md  bg-purpleShade my-1 mx-auto block"></span>
+                <span class="w-6 h-1 hamburger-middle rounded-md bg-purpleShade my-1 mx-auto block"></span>
+                <span class="w-6 h-1 hamburger-bottom rounded-md bg-purpleShade my-1 mx-auto block"></span>
+            </button>
+        </div>
+
+
+        <div class="hidden  bg-white mt-5 transition-shadow">
+            <ul class="hidden hamburger-menu items-center space-y-10  py-5 font-semibold text-sm ">
+                <li class="text-lightGray hover:text-black"><a href="">Home</a></li>
+                <li class="text-lightGray hover:text-black"><a href="">Discover</a></li>
+                <li class="text-lightGray hover:text-black"><a href="">Special Deals</a></li>
+                <li class="text-lightGray hover:text-black"><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- Hero section -->
+    
+    <div class="relative bg-gradient-to-br from-white from-50% via-white  to-fadeOrange max-sm:bg-none">
+        <div class="flex gap-10 px-16 pt-14 max-lg:flex-col-reverse max-lg:gap-0 max-lg:bg-gradient-to-tl from-white from-50% via-white via  to-lightOrange">
+            <div class=" flex-1 relative mt-14 max-lg:text-center ">
+                <div class="flex gap-1 bg-white rounded-2xl shadow-xl w-40 py-1 px-3 border-solid-1 max-lg:my-0 mx-auto">
+                    <h4 class="text-brightPink text-sm">Explore the world!</h4>
+                    <img class="w-4" src="images/work 1.svg" alt="">
+                </div>
+                <h1 class=" mt-10 mb-10 text-5xl font-bold leading-snug max-lg:px-56 max-sm:px-0">Travel <span class="text-brightPink">top destination </span> of the world</h1>
+                <p class="text-lightGray">We always make our customer happy by providing <br> as many choices as possible</p>
+
+                <!-- hero buttons -->
+
+                <div class="flex gap-6 mt-14 max-lg:justify-center ">
+                    <button class="rounded-full shadow-xl bg-purpleShade px-2 py-2 w-1/2 text-white font-semibold text-sm max-lg:w-40"><a href="#">Get Started</a></button>
+                    <button class="w-1/2 rounded-full  px-2 py-2 font-semibold border-2 border-slate-100 text-sm max-lg:w-40"><a class="flex justify-between" href="#"><img class="w-5" src="images/play-circle..svg" alt="">Watch Demo</a></button>
+                </div>
+            </div>
+
+            <!-- hero image -->
+            <div>
+                <img class="w-full" src="images/hero img.svg" alt="">
+            </div>
+
+           
+        </div>
+
+        <img class="absolute left-5 bottom-14 w-12 max-lg:absolute top-3/4 max-lg:left-14 max-sm:hidden" src="images/OBJECTS.svg" alt="">
+
+        <div class="px-16">
+            <ul class="flex justify-between max-lg:flex-wrap gap-10 max-lg:justify-center max-lg:mt-40 py-10 px-20 max-sm:px-0 max-sm:mt-5 ">
+                <li><img class="w-20" src="images/tripadvisor.svg" alt=""></li>
+                <li><img class="w-20" src="images/expedia.svg" alt=""></li>
+                <li><img class="w-20" src="images/booking.svg" alt=""></li>
+                <li><img class="w-20" src="images/airbnb.svg" alt=""></li>
+                <li><img class="w-20" src="images/Bitz.svg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- second section -->
+
+    <div class="bg-gradient-to-tr from-white from-55% via-white to-fadeOrange max-sm:bg-none">
+        <div class="flex gap-10 items-center py-16 pl-16 overflow-x-scroll max-lg:flex-col text-center pt-32 max-sm:py-4 max-sm:px-2 ">
+            <div class="">
+                <h4 class="text-brightPink tracking-wide font-semibold max-lg:text-2xl mb-5">SERVICES</h4>
+                <P class="text-4xl font-bold max-lg:mt-5 max-sm:text-3xl">Our top value categories for you</P>
+            </div>
+            <div class="flex gap-12 text-center max-lg:py-16 max-sm:flex flex-wrap max-sm:justify-center" id="cards">
+                <div class="shadow-md rounded-3xl w-60 h-80 px-3 bg-white max-sm:">
+                    <img class="w-14 my-5 mx-auto" src="images/tourguide.svg" alt="">
+                    <h2 class="font-bold my-5">Best Tour Guide</h2>
+                    <p>What looked like a small patch of purple grass, above five feet.</p>
+                </div>
+                <div class="shadow-xl rounded-3xl px-3 w-60 h-80 bg-white">
+                    <img class="w-14 my-5 mx-auto" src="images/booking 1.svg" alt="">
+                    <h2 class="font-bold my-5">Best Booking</h2>
+                    <p>Square, was moving across the sand in their direction.</p>
+                </div>
+                <div class="shadow-md rounded-3xl w-60 h-80 px-3 bg-white">
+                    <img class="w-14 my-5 mx-auto" src="images/tourguide.svg" alt="">
+                    <h2 class="font-bold my-5">Best Tour Guide</h2>
+                    <p>What looked like a small patch of purple grass, above five feet.</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Third section -->
+
+    <div class="p-16 py-10 max-sm:p-4 ">
+        <div class="flex justify-between max-lg:flex-col items-center text-center">
+            <div>
+                <h4 class="text-brightPink text-sm font-semibold tracking-widest max-lg:text-lg my-5">TOP DESTINATION</h4>
+                <h2 class="font-bold text-lg max-lg:text-3xl tracking-wider">Explore top destination</h2>
+            </div>
+            <div class="flex gap-5 my-5">
+                <button class="bg-white rounded-full p-4 border-2"><img src="images/left bold.svg" alt=""></button>
+                <button class="bg-purpleShade rounded-full p-4 shadow-lg"><img src="images/bold right.svg" alt=""></button>
+            </div>
+        </div>
+
+        <div class="flex justify-between py-10 max-lg:gap-5 max-sm:flex flex-wrap max-sm:justify-center">
+            <div class="bg-white shadow-lg w-80 rounded-3xl">
+                <img src="images/explore1.svg" alt="">
+                <div class="flex gap-8 p-5">
+                    <div>
+                        <h4 class="font-bold text-lg">Paradise Beach, Bantayan Island</h4>
+                        <p class="my-7  text-lightGray">Rome, Italy</p>
+                        <img src="images/4star.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-brightPink font-semibold">$550.16</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg w-80 rounded-3xl">
+                <img src="images/explore 2.svg" alt="">
+                <div class="flex gap-8 p-5">
+                    <div>
+                        <h4 class="font-bold text-lg">Ocean with full of Colors</h4>
+                        <p class="my-7  text-lightGray">Maldives</p>
+                        <img src="images/4 star.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-brightPink font-semibold">$20.99</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg w-80 rounded-3xl">
+                <img src="images/explore 3.svg" alt="">
+                <div class="flex gap-8 p-5">
+                    <div class="">
+                        <h4 class="font-bold text-lg">Mountain View, Above the cloud</h4>
+                        <p class="my-7 text-lightGray">United Arab Emeries </p>
+                        <img src="images/5star.svg" alt="">
+                    </div>
+    
+                    <div class="">
+                        <h3 class="text-brightPink font-semibold">$150.99</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fourth section -->
+
+    <div class="relative">
+        <div class="flex pr-16 max-lg:pl-16 max-lg:flex-col max-sm:p-4 ">
+            <div class="">
+                <img class="w-full" src="images/discount img.svg" alt="">
+            </div>
+            <div class=" flex-1  mt-14 max-lg:text-center max-lg:p-12 max-sm:p-4">
+                <h4 class="text-brightPink tracking-wider font-semibold max-lg:text-lg max-lg:tracking-widest">TRAVEL POINT</h4>
+                <h2 class="font-bold text-lg py-5 max-lg:text-3xl max-sm:text-2xl">We helping you find your dream location</h2>
+                <p class="text-lightGray py-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin 
+                    literature from 45 BC</p>
+                <div class="grid  grid-cols-2 gap-5 mt-12 max-lg:gap-8 max-sm:grid max-sm:grid-cols-1 max-sm:p-5">
+                    <div class="text-center border-2 border-gray-200 py-4 px-3   rounded-xl">
+                        <h2 class="text-orange-600 font-bold max-lg:text-xl">500+</h2>
+                        <p>Holiday Package</p>
+                    </div>
+    
+                    <div class="text-center border-2 border-gray-200 py-4 px-3 rounded-xl">
+                        <h2 class="text-orange-600 font-bold  max-lg:text-xl">100</h2>
+                        <p>Luxury Hotels</p>
+                    </div>
+    
+                    <div class="text-center border-2 border-gray-200 py-4 px-3 rounded-xl">
+                        <h2 class="text-orange-600 font-bold  max-lg:text-xl">7</h2>
+                        <p>Premium Airlines</p>
+                    </div>
+    
+                    <div class="text-center border-2 border-gray-200 py-4 px-3 rounded-xl">
+                        <h2 class="text-orange-600 font-bold  max-lg:text-xl ">2K+</h2>
+                        <p>Happy Customers</p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <img class="absolute right-5 top-64 w-36 max-lg:hidden" src="images/disicon.svg" alt="">
+
+    </div>
+
+    <!-- Features -->
+
+    <div>
+
+        <div class="flex gap-10 pt-28  pl-16 pr-14 max-lg:flex-col-reverse max-lg:text-center max-sm:p-5">
+            <div class="flex-1">
+                <h4 class="text-brightPink text-lg tracking-widest font-semibold">KEY FEATURES</h4>
+                <h3 class="text-3xl font-bold my-5 max-sm:2xl max-sm:font-semibold">We offer best services</h3>
+                <p class="text-lightGray">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature 
+                from 45 BC.</p>
+                <div class=" pl-5 mt-24">
+                    <div class="flex gap-5 my-5 hover:border-2 rounded-2xl max-lg:text-left">
+                        <img class="w-20 max-sm:w-16" src="images/orange.svg" alt="">
+                        <div class="my-auto">
+                            <a href=""><h4 class="font-bold max-sm:text-sm">We offer best services</h4>
+                                <p class="text-lightGray">Lorem Ipsum is not simply random text</p>
+                            </a>
+                        </div>   
+                    </div>
+    
+                    <div class="flex gap-5 my-5 hover:border-2 rounded-2xl max-lg:text-left">
+                        <img class="w-20 max-sm:w-16" src="images/yellow.svg" alt="">
+                        <div class="my-auto">
+                            <a href=""> <h4 class="font-bold max-sm:text-sm">Schedule your trip</h4>
+                                <p class="text-lightGray">It has roots in a piece of classical</p>
+                            </a>
+                            
+                        </div>
+                    </div>
+    
+                    <div class="flex gap-5 my-5 hover:border-2 rounded-2xl max-lg:text-left">
+                        <img class="w-20 max-sm:w-16" src="images/pink.svg" alt="">
+                        <div class="my-auto">
+                            <a href=""><h4 class="font-bold max-sm:text-sm">Get discounted coupons</h4>
+                                <p class="text-lightGray">Lorem Ipsum is not simply random text</p>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+         </div>
+    
+            <div class="max-lg:">
+            <img class="w-full max-lg:w-3/4 max-lg:my-0 mx-auto" src="images/paradise 1.png" alt="">
+            </div>
+        </div> 
+
+    </div>
+
+    <!-- Testimonial section -->
+    <div class="relative">
+        <img class="opacity-20 w-full max-sm:hidden" src="images/wave.png" alt="">
+        <div class="text-center absolute top-28 right-28 left-28 px-16 max-sm:static max-sm:px-4">
+            <h4 class="text-brightPink font-semibold mb-5 tracking-widest">TESTIMONIALS</h4>
+            <h2 class="text-2xl font-bold tracking-wide">Trust our clients</h2>
+            <img class=" mx-auto my-12 w-24 max-lg:my-0" src="images/testimonial-img.svg" alt="">
+            <h3 class="text-gray-500 font-bold max-lg:mt-10"><span class="text-orangeShade font-bold">Mark Smith</span> / Travel Enthusiast</h3>
+            <img class=" mx-auto my-10 w-32" src="images/stars.svg" alt="">
+            <p class="px-12">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                in a piece of classical Latin literature from 45 BC.</p>            
+        </div>
+        <button class="bg-white rounded-full p-5 shadow-sm absolute top-3/4 left-20 max-sm:left-5 max-sm:w-10 max-sm:hidden"><img class="max-sm:w-10" src="images/left bold.svg" alt=""></button>
+        <button class="bg-purpleShade rounded-full p-4 shadow-lg absolute top-2/3 right-20 max-sm:absolute max-sm:right-5 max-sm:hidden"> <img class="max-sm:w-10" src="images/bold right.svg" alt=""></button> 
+    </div>
+
+    <!-- last container -->
+    <div class="relative mt-24 p-16 max-sm:p-4">
+        <!-- Subcribe section -->
+        <div>
+            <div class=" bg-yellow-50 text-center rounded-2xl p-32 max-lg:px-24 max-sm:p-6">
+                <h4 class="text-brightPink tracking-widest text-lg font-semibold">SUBSCRIBE TO OUR NEWSLETTER</h4>
+                <h2 class="font-semibold text-5xl px-14 py-16 max-lg:px-0 max-sm:text-3xl">Prepare yourself & let's explore the beauty of the world</h2>
+                <form class=""  class="" action="">
+                        <i class="fa-solid fa-envelope fa-sm" style="color: #3c3b45;"></i>
+                        <input class="w-1/2 h-12 rounded-lg max-sm:w-4/5  " type="email" placeholder="Your Email" name="" id="">    
+                    <button class=" ml-5 bg-purpleShade rounded-2xl text-white p-5 w-3/12 max-sm:w-4/5 max-sm:mt-4 max-sm:ml-0">SUBSCRIBE</button>   
+                </form>
+                <img class="absolute top-10 left-10 w-36 max-sm:hidden" src="images/dots.svg" alt="">
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="pt-28 justify-center">
+            <div class="flex gap-32 max-lg:flex-col">
+                <div class="flex-1  ">
+                    <img class=" w-1/5 mb-5" src="images/logo.svg" alt="">
+                    <p class="text-lightGray">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+                    <div class="flex gap-3 my-12">
+                        <a href=""><img class="social w-7" src="images/facebook.svg" alt=""></a>
+                        <a href=""><img class="social w-7" src="images/twitter.svg" alt=""></a>
+                        <a href=""><img  class="social w-7" src="images/instagram.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="flex flex-1 justify-between max-sm:hidden">
+                    <div class="">
+                        <h4 class="font-bold text lg">Company</h4>
+                        <p class="my-3"><a class="text-lightGray" href="">About</a></p>
+                        <p class="mb-3"><a class="text-lightGray" href="">Career</a></p>
+                        <p><a class="text-lightGray" href="">Mobile</a></p>
+                    </div>
+        
+                    <div class="">
+                        <h4 class="text-lg font-bold">Contact</h4>
+                        <p class="my-3"><a class="text-lightGray" href="">Why Travlog?</a></p>
+                        <p class="mb-3"><a class="text-lightGray" href="">Partner with us</a></p>
+                        <p class="mb-3"><a class="text-lightGray" href="">FAQ's</a></p>
+                        <p><a class="text-lightGray" href="">Blog</a></p>
+                    </div>
+        
+                    <div class="">
+                        <h4 class="font-bold text-lg">Meet Us</h4>
+                        <p class="text-lightGray my-3">+00 92 1234 56789</p>
+                        <p class="text-lightGray mb-3">info@travlog.com</p>
+                        <p class="text-lightGray">205. R Street, New York BD23200</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- <img class="" src="images/wave img.svg" alt=""> -->
+
+        <!-- Accordion -->
+
+        <div class="hidden acordion-wrapper max-sm:block mb-5">
+            <div class="accordion flex flex-col space-y-5">
+                <button type="button" class="accordion-btn active  font-bold text lg flex justify-between">
+                    <div><h4>Company</h4></div>
+                    <div><i id="pointer" class="fa-solid fa-circle-chevron-down fa-lg  active" style="color: #0c0c0d;"></i></div>
+                </button>
+                <div class="accordion-content hidden">
+                <p class="text-lightGray my-3"><a href="">About</a></p>
+                <p class="text-lightGray my-3"><a href="">Career</a></p>
+                <p class="text-lightGray my-3"><a href="">Mobile</a></p>
+                </div>
+
+                <button type="button" class="flex justify-between accordion-btn active font-bold">
+                    <div><h4>Contact Us</h4></div>
+                    <div><i id="pointer" class="fa-solid fa-circle-chevron-down fa-lg  active" style="color: #0c0c0d;"></i></div>
+                </button>
+                <div class="accordion-content hidden">
+                    <p class="text-lightGray my-3"><a href="">Why Travlog?</a></p>
+                    <p class="text-lightGray my-3"><a href="">Partner with us</a></p>
+                    <p class="text-lightGray my-3"><a href="">FAQ's</a></p>
+                    <p class="text-lightGray my-3"><a href="">Blog</a></p>
+                </div>
+
+                <button type="button" class="accordion-btn active font-bold text-lg flex justify-between">
+                    <div><h4>Meet us</h4> </div>
+                    <div><i id="pointer" class="fa-solid fa-circle-chevron-down fa-lg active" style="color: #0c0c0d;"></i></div>
+                </button>
+
+                <div class="accordion-content hidden">
+                    <p class="text-lightGray my-3">+00 92 1234 56789</p>
+                    <p class="text-lightGray my-3">info@travlog.com</p>
+                    <p class="text-lightGray my-3">205. R Street, New York BD23200</p>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

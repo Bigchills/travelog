@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.hamburger{
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.hamburger-bottom,.hamburger-middle,.hamburger-top{
+    transition: all 0.5s;
+    transform: rotate(0);
+}
+
+.open{
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top{
+    transform: rotate(45deg) translateY(8px) translate(8px);
+}
+
+.open .hamburger-middle{
+    display: none;
+}
+
+.open .hamburger-bottom{
+    transform: rotate(-45deg) translateY(8px) translate(-8px);
+
+}
